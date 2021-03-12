@@ -1,0 +1,30 @@
+.approuter-wrapper {
+    min-height: 100vh;
+    display: flex;
+    position: relative;
+    /* Direction of the items, can be row or column */
+    flex-flow: column nowrap;
+
+
+}
+
+
+
+.approuter-header-section {
+    flex-shrink: 0;
+
+
+}
+
+.approuter-body-section {
+    min-height: 100VH;
+    flex-shrink: 0;
+    flex-grow: 1;
+
+
+}
+
+.approuter-footer-section {
+    flex-shrink: 0;
+
+}
